@@ -11,7 +11,12 @@ let package = Package(
   products: [
     .library(
       name: "RxExtensions",
-      targets: ["RxExtensions"]),
+      targets: ["RxExtensions"]
+    ),
+    .library(
+      name: "RxCocoaExtensions",
+      targets: ["RxCocoaExtensions"]
+    )
   ],
   dependencies: [
     .package(url: "https://github.com/ReactiveX/RxSwift.git", from: "5.0.0")
@@ -20,6 +25,13 @@ let package = Package(
     .target(
       name: "RxExtensions",
       dependencies: [
+        "RxSwift"
+      ]
+    ),
+    .target(
+      name: "RxCocoaExtensions",
+      dependencies: [
+        "RxCocoa",
         "RxSwift"
       ]
     )
