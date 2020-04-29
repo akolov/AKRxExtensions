@@ -1,5 +1,5 @@
 //
-//  UIViewController+Rx.swift
+//  UIViewController.swift
 //  RxCocoaExtensions
 //
 //  Created by Alexander Kolov on 2019-09-14.

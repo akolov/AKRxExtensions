@@ -1,5 +1,5 @@
 //
-//  AVPlayer+Rx.swift
+//  AVPlayer.swift
 //  RxCocoaExtensions
 //
 //  Created by Alexander Kolov on 2019-10-08.

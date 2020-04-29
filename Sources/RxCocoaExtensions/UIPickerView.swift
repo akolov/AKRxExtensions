@@ -1,5 +1,5 @@
 //
-//  UIPickerView+Rx.swift
+//  UIPickerView.swift
 //  RxCocoaExtensions
 //
 //  Created by Alexander Kolov on 2019-11-06.
