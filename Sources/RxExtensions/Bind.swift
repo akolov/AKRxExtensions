@@ -1,8 +1,9 @@
 //
-//  File.swift
-//  
+//  FlatMapWeak.swift
+//  RxExtensions
 //
 //  Created by Alexander Kolov on 2020-05-06.
+//  Copyright © 2020 Alexander Kolov. All rights reserved.
 //
 
 import RxSwift
