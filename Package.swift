@@ -4,18 +4,18 @@
 import PackageDescription
 
 let package = Package(
-  name: "RxExtensions",
+  name: "AKRxExtensions",
   platforms: [
     .macOS(.v10_13), .iOS(.v12), .tvOS(.v12), .watchOS(.v5)
   ],
   products: [
     .library(
-      name: "RxExtensions",
-      targets: ["RxExtensions"]
+      name: "AKRxExtensions",
+      targets: ["AKRxExtensions"]
     ),
     .library(
-      name: "RxCocoaExtensions",
-      targets: ["RxCocoaExtensions"]
+      name: "AKRxCocoaExtensions",
+      targets: ["AKRxCocoaExtensions"]
     )
   ],
   dependencies: [
@@ -23,13 +23,13 @@ let package = Package(
   ],
   targets: [
     .target(
-      name: "RxExtensions",
+      name: "AKRxExtensions",
       dependencies: [
         "RxSwift"
       ]
     ),
     .target(
-      name: "RxCocoaExtensions",
+      name: "AKRxCocoaExtensions",
       dependencies: [
         "RxCocoa",
         "RxSwift"

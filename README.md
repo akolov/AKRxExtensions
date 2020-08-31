@@ -1,2 +1,2 @@
-# RxExtensions
-RxExtensions that I use in my projects
+# AKRxExtensions
+AKRxExtensions that I use in my projects

@@ -1,6 +1,6 @@
 //
 //  MapWeak.swift
-//  RxExtensions
+//  AKRxExtensions
 //
 //  Created by Alexander Kolov on 2020-05-05.
 //  Copyright © 2020 Alexander Kolov. All rights reserved.

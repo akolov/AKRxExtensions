@@ -1,6 +1,6 @@
 //
 //  FlatMapWeak.swift
-//  RxExtensions
+//  AKRxExtensions
 //
 //  Created by Alexander Kolov on 2019-09-09.
 //  Copyright © 2019 Alexander Kolov. All rights reserved.

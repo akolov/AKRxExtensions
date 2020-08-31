@@ -1,6 +1,6 @@
 //
 //  UIViewController.swift
-//  RxCocoaExtensions
+//  AKRxCocoaExtensions
 //
 //  Created by Alexander Kolov on 2019-09-14.
 //  Copyright © 2019 Alexander Kolov. All rights reserved.

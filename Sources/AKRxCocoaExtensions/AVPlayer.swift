@@ -1,6 +1,6 @@
 //
 //  AVPlayer.swift
-//  RxCocoaExtensions
+//  AKRxCocoaExtensions
 //
 //  Created by Alexander Kolov on 2019-10-08.
 //  Copyright © 2019 Alexander Kolov. All rights reserved.
