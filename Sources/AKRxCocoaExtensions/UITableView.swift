@@ -6,6 +6,8 @@
 //  Copyright © 2019 Alexander Kolov. All rights reserved.
 //
 
+#if os(iOS) || os(tvOS) || os(watchOS)
+
 import RxCocoa
 import RxSwift
 import UIKit
@@ -19,3 +21,5 @@ extension Reactive where Base: UITableView {
   }
 
 }
+
+#endif
