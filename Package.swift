@@ -25,6 +25,7 @@ let package = Package(
     .target(
       name: "AKRxExtensions",
       dependencies: [
+        "RxRelay",
         "RxSwift"
       ]
     ),
