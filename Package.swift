@@ -18,21 +18,21 @@ let package = Package(
     )
   ],
   dependencies: [
-    .package(url: "https://github.com/ReactiveX/RxSwift.git", from: "6.1.0")
+    .package(name: "RxSwift", url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.1.0"))
   ],
   targets: [
     .target(
       name: "AKRxExtensions",
       dependencies: [
-        "RxRelay",
-        "RxSwift"
+        .product(name: "RxRelay", package: "RxSwift"),
+        .product(name: "RxSwift", package: "RxSwift")
       ]
     ),
     .target(
       name: "AKRxCocoaExtensions",
       dependencies: [
-        "RxCocoa",
-        "RxSwift"
+        .product(name: "RxCocoa", package: "RxSwift"),
+        .product(name: "RxSwift", package: "RxSwift")
       ]
     )
   ]
