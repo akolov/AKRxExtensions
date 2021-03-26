@@ -94,11 +94,15 @@ extension Reactive where Base: UIViewController {
 
   public var isModalInPresentation: Binder<Bool> {
     return Binder(base) { vc, flag in
-      #if swift(>=5.1)
       if #available(iOS 13.0, *) {
         vc.isModalInPresentation = flag
       }
-      #endif
+    }
+  }
+
+  public var dismiss: Binder<Bool> {
+    return Binder(base) { vc, flag in
+      vc.dismiss(animated: flag, completion: nil)
     }
   }
 
